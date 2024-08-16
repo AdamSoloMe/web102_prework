@@ -64,7 +64,7 @@ body {
 
 .game-card:hover {
     box-shadow: 0 12px 24px rgba(173, 216, 230, 0.6); /* Light blue shadow for a glowing effect */
-    transform: scale(1.08); /* Slightly enlarge the card on hover */
+    transform: scale(1.08); /* Slightly enlarged the card on hover */
     cursor: pointer; /* Change cursor to pointer on hover */
 }
  
@@ -87,10 +87,6 @@ button:hover {
     cursor: pointer; /* Change cursor to pointer on hover */
     transform: scale(1.05); /* Slightly increase the size of the button on hover */
 }
-
-/* Add this to your CSS file */
-/* Navigation Bar Styling */
-
 
 
 /* Search Bar Styling */
@@ -294,13 +290,12 @@ nav ul li a:hover::after {
     text-align: center; /* Center align text */
 }
 
-/* Icon style (if you use icons) */
 #notification-container p {
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
 }
 
-/* Optional: add some animation for a more dynamic effect */
+
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
