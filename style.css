@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: #f0f0f0;
 }
 
 #tentacles {
@@ -11,20 +11,24 @@ body {
 
 .header {
     display: flex;
-    background-color: lightblue;
+    background-color: #add8e6;
     padding: 1%;
     align-items: center;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+    box-shadow: 0 2px 8pmakx rgba(0, 0, 0, 0.3); /* Slightly darker shadow */
 }
 
 .stats-container {
     display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue ;
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: #BDC9D1 ;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
@@ -49,27 +53,259 @@ body {
 }
 
 .game-card {
-    background-color: #FFFFFF;
+    background-color: #FFFFFF; /* Card background color */
     padding: 1%;
     margin: 1%;
     width: 300px;
     text-align: center;
     border-radius: 7px;
+    transition: box-shadow 0.3s, transform 0.3s; /* Smooth transitions for hover effects */
 }
 
 .game-card:hover {
-    cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 12px 24px rgba(173, 216, 230, 0.6); /* Light blue shadow for a glowing effect */
+    transform: scale(1.08); /* Slightly enlarge the card on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
 }
+ 
 
 #button-container {
     text-align: center;
 }
 
 button {
+    background-color: #FFDAB9;
     font-family: 'Cabin';
     border: none;
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+button:hover {
+    background-color: #FFCC99; /* Slightly darker peach background on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* More pronounced shadow for a lifted effect */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transform: scale(1.05); /* Slightly increase the size of the button on hover */
+}
+
+/* Add this to your CSS file */
+/* Navigation Bar Styling */
+
+
+
+/* Search Bar Styling */
+#search-container {
+  display: flex;
+  align-items: center; /* Vertically center items */
+  justify-content: center; /* Center items horizontally */
+  gap: 10px; /* Space between search and menu button */
+  margin: 1em 0;
+}
+
+#search-wrapper {
+  position: relative; /* For positioning search icon absolutely */
+}
+
+#search-bar {
+  width: 600px; /* Adjust width as needed */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-right: 40px; /* Space for the search icon */
+}
+
+#search-icon {
+  position: absolute;
+  right: 10px; /* Space between the icon and the right edge of the search bar */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Center the icon */
+  width: 24px;
+  height: 24px;
+}
+
+#menu-container {
+  display: flex;
+  align-items: center;
+  position: relative; 
+}
+
+#menu-button {
+  background-color: #BDC9D1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-family: 'Cabin';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+
+#menu-image {
+  width: 100%;
+  height: auto;
+}
+#dropdown-menu {
+  display: none; /* Hide by default */
+  position: absolute;
+  top: 100%; /* Position below the menu button */
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 150px;
+  z-index: 1;
+  top: 100%; /* Position directly below the menu button */
+  left: 0;
+
+}
+
+#dropdown-menu.hidden {
+  display: none; /* Hide when 'hidden' class is applied */
+}
+
+
+#dropdown-menu:not(.hidden) {
+  display: block;
+}
+#dropdown-menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  font-family: 'Cabin', sans-serif;
+  
+}
+
+#dropdown-menu a:hover {
+  background-color: #f0f0f0;
+}
+
+
+
+nav {
+  background: linear-gradient(135deg, #ff7f50, #ff6347); 
+  color: #fff;
+  padding: 0.5em 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); /* Slightly darker shadow */
+  font-family: 'Cabin', sans-serif; /* Use the imported font */
+  margin: 0;
+  width: 100%; /* Full width of the page */
+  position: relative; /* Positioned below header */
+  padding: 0.5%;
+  align-items: center;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center align items vertically */
+}
+
+nav ul li {
+  margin: 0 1.5em;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em; /* Slightly larger font size */
+  font-weight: 600; /* Slightly bolder font weight */
+  transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
+  padding: 0.6em 1.2em; /* Slightly larger padding */
+  border-radius: 6px; /* More rounded corners */
+  position: relative; /* For positioning pseudo-elements */
+}
+
+nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background on hover */
+  color: #ffeb3b; /* Bright color on hover for contrast */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+nav ul li a.active {
+  background-color: #fff; /* Active link background */
+  color: #007aff; /* Active link color matching the gradient */
+  padding: 0.6em 1.2em;
+  border-radius: 6px;
+}
+
+nav ul li a::after {
+  display: flex;
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 0;
+  height: 3px;
+  background-color: #ffeb3b; /* Underline effect on hover */
+  transition: width 0.3s ease-in-out;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 0.5em 0;
+  }
+
+  nav ul li a {
+    font-size: 1em;
+    padding: 0.5em 1em;
+  }
+}
+
+.no-games-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+/* Notification container style */
+#notification-container {
+    background-color: #f4f4f4; /* Light background for visibility */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Spacing inside the container */
+    margin-bottom: 10px; /* Space below the notification */
+    font-size: 14px; /* Font size for readability */
+    color: #333; /* Dark text color for contrast */
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center align items vertically */
+    justify-content: center; /* Center align items horizontally */
+    text-align: center; /* Center align text */
+}
+
+/* Icon style (if you use icons) */
+#notification-container p {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Optional: add some animation for a more dynamic effect */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#notification-container {
+    animation: fadeIn 0.5s ease-in-out;
 }
