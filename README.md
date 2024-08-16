@@ -1,44 +1,54 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - SeaMonster Crowdfunding
 
-Submitted by: **Your Name Here**
+Submitted by: Adam Solomon
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**SeaMonster Crowdfunding** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **7** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [x] The introduction section explains the background of the company and how many games remain unfunded.
+* [x] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+ List anything else that you can get done to improve the app functionality!
+
+- [x] **Navbar**: A navigation bar is included to help users easily navigate between different sections of the site in the future.
+- [x] **Search Card Hover**: Hover effects have been added to the search cards to improve user interaction and visual appeal.
+- [x] **Menu Filter**: A menu filter is available to help users search by different categories of content more effectively.
+- [x] **Search Bar**: A search bar is also included to help users search for projects more effectively as opposed to solely using the required filters.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+https://github.com/user-attachments/assets/d16b27c6-b5e5-4a1b-bddf-a4811bc7fa53
+
+
+
+
+
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Challenges encountered while adding custom features:
+
+* **Navbar Integration:** Ensuring that the navbar is responsive and consistent across different devices and screen sizes.
+* **Search Card Hover Effect:** Achieving the desired hover effect while maintaining performance and compatibility with different browsers.
+* **Menu Filter Functionality:** Implementing the filtering logic and ensuring that the results were accurate based on user input.
+* **Search Bar Implementation:** Adding a search bar and integrating it with existing functionality to provide an additional layer of search capability.
+* **Color Updates:** Selecting and applying colors that improve visual appeal and user experience without affecting readability.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+  Copyright 2024 Adam Solomon
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
