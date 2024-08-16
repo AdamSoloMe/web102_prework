@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+ List anything else that you can get done to improve the app functionality!
 
 - [x] **Navbar**: A navigation bar is included to help users easily navigate between different sections of the site in the future.
 - [x] **Search Card Hover**: Hover effects have been added to the search cards to improve user interaction and visual appeal.
