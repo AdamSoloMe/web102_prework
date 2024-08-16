@@ -28,7 +28,11 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-https://github.com/user-attachments/assets/888304d9-49f3-4303-89c2-e9a810a0ecbc
+
+
+https://github.com/user-attachments/assets/cbd5b57f-6f86-4a12-a19f-d59fa7f107e0
+
+
 
 
 
