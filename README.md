@@ -30,7 +30,7 @@ Here's a walkthrough of implemented features:
 
 
 
-https://github.com/user-attachments/assets/cbd5b57f-6f86-4a12-a19f-d59fa7f107e0
+https://www.youtube.com/watch?v=yEnfSLhNWKY
 
 
 
