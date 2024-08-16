@@ -1,6 +1,6 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - SeaMonster Crowdfunding
 
-Submitted by: **Your Name Here**
+Submitted by: Adam Solomon
 
 **SeaMonster Crowdfunding** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
