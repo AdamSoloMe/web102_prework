@@ -29,8 +29,8 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented features:
 
 
+https://github.com/user-attachments/assets/d16b27c6-b5e5-4a1b-bddf-a4811bc7fa53
 
-https://www.youtube.com/watch?v=yEnfSLhNWKY
 
 
 
