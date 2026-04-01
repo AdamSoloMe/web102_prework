@@ -48,7 +48,7 @@ Challenges encountered while adding custom features:
 
 ## License
 
-  Copyright 2024 Adam Solomon
+  Copyright 2026 Adam Solomon
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
